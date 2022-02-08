@@ -43,6 +43,7 @@ end
 --flinge = false
 
 penis=1
+wait(2)--wait until char stops fallin :cold_face:
 plr.Character=nil
 plr.Character=char
 char.Humanoid.AutoRotate=false
