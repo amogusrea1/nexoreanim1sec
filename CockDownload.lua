@@ -42,8 +42,10 @@ end
 
 --flinge = false
 
-penis=1
-wait(2)--wait until char stops fallin :cold_face:
+penis=1.69
+local Player = game:GetService('Players').LocalPlayer
+
+Player.Character.Humanoid.Jump:Wait()--readthecode:tm:
 plr.Character=nil
 plr.Character=char
 char.Humanoid.AutoRotate=false
